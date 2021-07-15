@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+/* common styles */
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #E5DEDE;    
+}
+main{
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    padding-top: 70px;
+    background-color: #FFFFFF;
+ 
+ 
+}
+.container{
+    background-color: #FFFFFF;
+    width: 990px;
+    padding: 15px;
+    
+}
+
+/* heading part  */
+.home-page{
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    justify-content: center;
+    background-color: #3917B3; 
+   
+
+  
+    
+}
+
+.heading h1{
+   color: #FFFFFF; 
+    width: 485px;
+    height: 230px;
+    font-size: 28px;
+    margin-top: 207px;
+    margin-bottom: 70px;
+    font-weight: 700;
+    font-size: 64px;
+}
+.link-button{
+
+    text-decoration: none;
+    font-weight: 700;
+    color: whitesmoke;
+    background-color: #E02C6D;
+    Padding :10px 25px;
+   
+
+}
+
+   
+
+.fa-arrow-right{
+    width: 24px;
+    height: 24px;
+   margin-left:-26px;
+   color: cornsilk;
+
+}
+.top-banner img{
+    width: 556px;
+    height: 438px;
+    margin-left: 74px;
+    margin-right: 168px;
+    margin-top: 133px;
+    margin-bottom: 86px;
+}
+/* section  */
+
+   
+
+.player-info{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    align-items: center;
+    grid-column-gap: 30px;
+    grid-row-gap: 18px;
+
+}
+.player{
+box-shadow: 7px 4px 5px gray;
+    border-radius:5px;
+}
+
+.player img{
+    width: 300px;
+    height: 256;
+}
+h1{
+    width: 300px;
+    height: 40px;
+    font-size: 28px;
+    color: #18191F;
+    font-weight: 700;
+}
+#name{
+    margin-top: 0%;
+}
+.player p{
+    width: 300px;
+    height: 104px;
+    font-size: 16px;
+    color: #6C6C6C;
+   
+}
+/* ending work for me  */
+.information{
+    display:grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-column-gap: 14px;
+   align-items: center;
+}
+.cup-information{
+    margin-right: 90px;
+}
+.cup-information p{
+    width:400px;
+    height: 72px;
+    
+}
+#winner{
+        width: 400px;
+        height: 100px;
+        font-weight: 700;
+        font-size: 30px;
+        margin-top: 0%;
+        margin-bottom: 0%;
+}
+ .picture{
+    Width:500px;
+    Height: 409px;
+   margin-top: 150px;
+   
+}
+.button {
+    text-decoration: none;
+    color: whitesmoke;
+    font-weight: 600;
+    background-color:rgb(102, 131, 117);
+    padding: 10px 25px;
+    border-radius: 8px;
+    cursor: grab;
+}
